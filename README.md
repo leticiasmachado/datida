@@ -1,4 +1,4 @@
-# Dataset Automation Tool for Analysis of Domains - DATADOM
+# DATIDA - Dataset Automation Tool for Internet Domain Analysis
 
 Tool developed for a BCs in Computer Science undergraduate final project that generates datasets for training machine learning models to detect malicious domains.
 
@@ -50,7 +50,7 @@ Python solution that:
 
 ![Tool Flowchart](Tool_Flowchart.png)
 
-### Data Sources
+### Available Data Sources (currently)
 | Type           | Included Sources                                                                 |
 |----------------|----------------------------------------------------------------------------------|
 | **Allowlist**  | Majestic Million, Cisco Umbrella                                                 |
@@ -83,7 +83,7 @@ Edit `json_processor/configs.json` to select:
 ## 📁 File Structure
 
 ```
-datadom/
+datida/
 ├── data/                    # Data source
 ├── domain_checkers/         # List verifiers
 ├── downloads/               # Download management
@@ -98,7 +98,7 @@ datadom/
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/leticiasmachado/datadom
+   git clone https://github.com/leticiasmachado/datida
    ```
 2. Configure `json_processor/configs.json`
 3. Run the main module:
